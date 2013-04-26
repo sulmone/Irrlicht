@@ -14,7 +14,6 @@
 
 #if defined(_IRR_WINDOWS_API_)
 	// include windows headers for HWND
-	#define WIN32_LEAN_AND_MEAN
 	#include <windows.h>
 	#if defined(_IRR_OPENGL_USE_EXTPOINTER_)
 		#define GL_GLEXT_LEGACY 1

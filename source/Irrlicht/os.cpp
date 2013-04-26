@@ -56,7 +56,6 @@ namespace os
 #ifdef _IRR_XBOX_PLATFORM_
 #include <xtl.h>
 #else
-#define WIN32_LEAN_AND_MEAN
 #include <windows.h>
 #include <time.h>
 #endif

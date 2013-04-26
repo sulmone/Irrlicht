@@ -14,7 +14,6 @@
 	#define GL_GLEXT_PROTOTYPES 1
 #endif
 #ifdef _IRR_WINDOWS_API_
-	#define WIN32_LEAN_AND_MEAN
 	#include <windows.h>
 	#include <GL/gl.h>
 #elif defined(_IRR_OSX_PLATFORM_)
